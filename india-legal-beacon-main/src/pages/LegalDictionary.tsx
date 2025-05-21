@@ -87,8 +87,7 @@ export const LegalDictionary = () => {
         {/* External Legal Dictionary Search */}
         <div className="mb-8 bg-legal-gold/5 rounded-lg p-4 text-center">
           <div className="mb-4">
-            <img 
-              src="https://dictionary.law.com/img/lawcom_diction_topform.gif" 
+            <img  
               alt="Law.com Dictionary Logo" 
               width="150" 
               height="40"
