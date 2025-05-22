@@ -5,6 +5,7 @@ import { TrendingUp, BookOpen, Search } from "lucide-react";
 
 const LegalSidebar = () => {
   // Legal glossary preview terms
+  //addition of extra terms needed
   const glossaryTerms = [
     { term: "Habeas Corpus", definition: "A writ requiring a person to be brought before a judge or court." },
     { term: "Prima Facie", definition: "A fact presumed to be true unless contradicted by evidence." },
