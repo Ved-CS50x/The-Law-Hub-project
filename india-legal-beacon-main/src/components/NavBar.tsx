@@ -5,14 +5,15 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   const navItems = [
     { label: "Home", href: "/" },
+    { label: "Articles", href: "#" },
     { label: "Legal News", href: "#" },
     { label: "Supreme Court", href: "#" },
     { label: "High Courts", href: "#" },
+    { label: "Discussion & Explainers", href: "#" },
+    { label: "Important Cases", href: "#" },
     { label: "Know Your Rights", href: "#" },
-    { label: "Case Law", href: "#" },
-    { label: "Explainers", href: "#" },
-    { label: "Opinion", href: "#" },
-    { label: "Forums", href: "#" },
+    { label: "Events", href: "#" },
+    { label: "Contact Us", href: "#" },
   ];
 
   return (

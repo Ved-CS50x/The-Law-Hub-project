@@ -3,9 +3,8 @@ import React from "react";
 
 const NewsTicker = () => {
   const latestNews = [
-    "Supreme Court upholds constitutional validity of Citizenship Amendment Act",
-    "Delhi High Court issues new guidelines on virtual hearings",
-    "Legal experts react to landmark judgment on cryptocurrency regulation",
+    "NEET-2025 Can't Be Held In Two Shifts : Supreme Court Directs NBE to Hold Single Shift Exam",
+    "Supreme Court Sets Aside Bombay HC Direction To Restore Khajuria Lake",
     "Chief Justice inaugurates new e-filing system for all courts",
     "Parliamentary committee proposes changes to judicial appointment process",
   ];
