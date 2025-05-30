@@ -66,17 +66,21 @@ const Masthead = () => {
               />
             </div>
             <div className="flex gap-2">
-              <Button 
-                className="bg-legal-gold hover:bg-legal-gold/90 text-white px-3 py-1 h-9 rounded-none font-medium text-sm"
-              >
-                Subscribe
-              </Button>
-              <Button 
-                className="bg-legal-gold hover:bg-legal-gold/90 text-white px-3 py-1 h-9 rounded-none font-medium text-sm flex items-center gap-1"
-              >
-                <LogIn className="h-4 w-4" />
-                <span>Sign In</span>
-              </Button>
+              <Link to="/subscribe">
+                <Button 
+                  className="bg-legal-gold hover:bg-legal-gold/90 text-white px-3 py-1 h-9 rounded-none font-medium text-sm"
+                >
+                  Subscribe
+                </Button>
+              </Link>
+              <Link to="/signin">
+                <Button 
+                  className="bg-legal-gold hover:bg-legal-gold/90 text-white px-3 py-1 h-9 rounded-none font-medium text-sm flex items-center gap-1"
+                >
+                  <LogIn className="h-4 w-4" />
+                  <span>Sign In</span>
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
