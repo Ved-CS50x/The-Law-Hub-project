@@ -61,7 +61,7 @@ const Masthead = () => {
             <div className="flex-1">
               <input
                 type="text"
-                placeholder="Search legal news, cases, and commentary..."
+                placeholder="Search legal news, articles, academic material..."
                 className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-none focus:outline-none focus:ring-1 focus:ring-legal-gold bg-white dark:bg-legal-black dark:text-white"
               />
             </div>

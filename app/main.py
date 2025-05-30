@@ -7,9 +7,9 @@ from fastapi.responses import HTMLResponse
 from app.api import api_router
 
 app = FastAPI(
-    title="India Legal Beacon",
-    description="India Legal Beacon Web Application",
-    version="1.0.0"
+    title="The Law Hub",
+    description="The Law Hub Web Application",
+    version="4.1.0"
 )
 
 # Configure CORS
@@ -32,3 +32,4 @@ app.mount("/", StaticFiles(directory=os.path.join(PROJECT_ROOT, "india-legal-bea
 
 # All routes are handled by the static file server now
 # No need for additional route handlers
+#added static server routes for both the frontend and the backend

@@ -17,6 +17,7 @@ export const LegalDictionary = () => {
   const [searchQuery, setSearchQuery] = useState<string>("");
 
   // Comprehensive legal glossary data sample - based on dictionary.law.com
+  // format for manual addition in the legal glossary ( { term:"", definition:"", letter:"" }, )
   const glossaryTerms: GlossaryTerm[] = [
     { term: "Ab Initio", definition: "Latin for 'from the beginning,' 'from the first act,' or 'the start.' In legal parlance, it refers to something being the case from the beginning or outset.", letter: "A" },
     { term: "Abandonment", definition: "The act of giving up, withdrawing from, or relinquishing an interest, claim, civil proceedings, appeal, privilege, possession, or right, especially with the intent of never again resuming or reasserting it.", letter: "A" },
@@ -88,7 +89,8 @@ export const LegalDictionary = () => {
         <div className="mb-8 bg-legal-gold/5 rounded-lg p-4 text-center">
           <div className="mb-4">
             <img  
-              alt="Law.com Dictionary Logo" 
+              //
+              alt="The Law Hub Dictionary" 
               width="150" 
               height="40"
               className="mx-auto"
